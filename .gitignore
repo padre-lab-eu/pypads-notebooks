@@ -1,3 +1,5 @@
 /venv/
 /single_run/SVC/.ipynb_checkpoints/
 /single_run/MLPClassifier/.ipynb_checkpoints/
+/single_run/DecisionTree/.ipynb_checkpoints/
+/multiple_runs/.ipynb_checkpoints/
