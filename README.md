@@ -39,6 +39,9 @@ automatically by PyPads and retrieving them once the experiment is done.
 An MLP classifier using the scikit-learn MLP algorithm. The dataset loading and splitting steps are similar to that of the 
 Decision Tree Classifier.
 
+### SVC 
+A simple example containing a Support Vector Classifier. This is similar to the other scikit-learn classier notebooks. 
+
 ### Custom Dataset
 Users mostly need datasets other than scikit-learn datasets. In this example, a custom dataset is created, split into 
 training and testing and classifies the data using a RandomForestClassifier from scikit-learn.
@@ -51,6 +54,8 @@ The notebook as produces live graphs for the training loss, the accuracy of the 
 The model is tested at regular intervals and the accuracy results are logged to pypads via the different parameters.
 The notebook uses the scikit-learn classification report and the accuracy metrics.
 The notebook also uses ipy widgets to show the training progress.
+The notebook also accesses a single metric at a particular step value and prints it
+The notebook retrieves a parameter and converts it back to its original datatype from string.
 
 We use custom tracking of parameters in this notebook, taking the learning rate and the network shape as examples.
 Note that the network shape parameter is passed as a string because MLFlow accepts parameters as strings.
