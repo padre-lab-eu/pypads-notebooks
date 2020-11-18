@@ -1,7 +1,7 @@
 # pypads-notebooks
 
 This project has sample notebooks on how to run pypads and customize it to track different parameters and results. 
-This will be mirrored to GitHub so that users can have a first hand look on how to use the Pads infrastructure to run their own experiments
+This will be mirrored to GitHub so that users can have a first hand look on how to use the Pads infrastructure to run their own experiments.
 
 ## How the notebooks are organized
 The main folders here are single_run and multiple_runs. 
